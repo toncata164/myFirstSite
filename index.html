@@ -1,0 +1,116 @@
+<!Doctype html>
+<html>
+    <head>
+	    <link rel="stylesheet" href="style.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+		
+	    <title>
+		    Сайта на Наско
+		</title>
+		<script>
+			function onAboutMeClicked()
+			{
+				var header = document.getElementById("header");
+				header.innerHTML = "За мен";
+				var leftContent = document.getElementsByClassName("left_content")[0];
+				leftContent.innerHTML = "<img src='me.jpg' width='470px' height='470px'/>";
+				var middleContent = document.getElementsByClassName("middle_content")[0];
+				middleContent.innerHTML = "<p class='inner-content'>Име: Антон</p><p class='inner-content'>Фамилия: Денев</p><p class='inner-content'>Години: 12</p><p class='inner-content'>Местообитание: класна стая</p><p class='inner-content'>Професия: учител по програмиране</p>";
+				makeContentHeightSame();
+			}
+			function onIndexClicked()
+			{
+				var header = document.getElementById("header");
+				header.innerHTML = "Начало";
+				var leftContent = document.getElementsByClassName("left_content")[0];
+				leftContent.innerHTML = '<p>От к\'де идва? Противно на общоприетото схващане, Lorem Ipsum не е просто случаен текст. Той има корени в парче от класическата латиноамериканска литература от 45 г. пр. н. е., което го прави на повече от 2000 години. Ричард Макклинток, професор по латински в Hampden-Sydney College във Вирджиния, потърси една от по-неизвестните латински думи, consectetur, от пасаж от Lorem Ipsum и, преглеждайки цитатите на думата в класическата литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32. Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм.</p>';
+				var middleContent = document.getElementsByClassName("middle_content")[0];
+				middleContent.innerHTML = '<p>От к\'де идва? Противно на общоприетото схващане, Lorem Ipsum не е просто случаен текст. Той има корени в парче от класическата латиноамериканска литература от 45 г. пр. н. е., което го прави на повече от 2000 години. Ричард Макклинток, професор по латински в Hampden-Sydney College във Вирджиния, потърси една от по-неизвестните латински думи, consectetur, от пасаж от Lorem Ipsum и, преглеждайки цитатите на думата в класическата литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32. Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм.</p>';
+				var rightContent = document.getElementsByClassName("right_content")[0];
+				rightContent.innerHTML = '<p>От к\'де идва? Противно на общоприетото схващане, Lorem Ipsum не е просто случаен текст. Той има корени в парче от класическата латиноамериканска литература от 45 г. пр. н. е., което го прави на повече от 2000 години. Ричард Макклинток, професор по латински в Hampden-Sydney College във Вирджиния, потърси една от по-неизвестните латински думи, consectetur, от пасаж от Lorem Ipsum и, преглеждайки цитатите на думата в класическата литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32. Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм. От к\'де идва? Противно на общоприетото схващане, Lorem Ipsum не е просто случаен текст. Той има корени в парче от класическата латиноамериканска литература от 45 г. пр. н. е., което го прави на повече от 2000 години. Ричард Макклинток, професор по латински в Hampden-Sydney College във Вирджиния, потърси една от по-неизвестните латински думи, consectetur, от пасаж от Lorem Ipsum и, преглеждайки цитатите на думата в класическата литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32. Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм. От к\'де идва? Противно на общоприетото схващане, Lorem Ipsum не е просто случаен текст. Той има корени в парче от класическата латиноамериканска литература от 45 г. пр. н. е., което го прави на повече от 2000 години. Ричард Макклинток, професор по латински в Hampden-Sydney College във Вирджиния, потърси една от по-неизвестните латински думи, consectetur, от пасаж от Lorem Ipsum и, преглеждайки цитатите на думата в класическата литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32. Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм. литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32. Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм.литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32. Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм.литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32. Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм.</p>';
+				makeContentHeightSame();
+			}
+			
+			
+			function makeContentHeightSame()
+			{
+			//try to make leftcontents heigh auto before get it with
+			// clientHeight
+				var leftContent = document.getElementsByClassName("left_content")[0];
+				var leftContentHeight = leftContent.clientHeight;
+				var middleContent = document.getElementsByClassName("middle_content")[0];
+				var middleContentHeight = middleContent.clientHeight;
+				var rightContent = document.getElementsByClassName("right_content")[0];
+				var rightContentHeight = rightContent.clientHeight;
+				console.log("right content height : "+rightContentHeight);
+				console.log("middle content height : "+middleContentHeight);
+				console.log("left content height : "+leftContentHeight);
+				
+				var maxHeight = leftContentHeight;
+				if(maxHeight < middleContentHeight)
+				{
+					maxHeight = middleContentHeight;
+				}
+				if(maxHeight < rightContentHeight)
+				{
+					maxHeight = rightContentHeight;
+				}
+				maxHeight -= 19;
+				console.log(leftContent.style.height);
+				leftContent.style.height = maxHeight+"px";
+				console.log(leftContent.style.height);
+				middleContent.style.height = maxHeight+"px";
+				rightContent.style.height = maxHeight+"px";
+			}
+			
+		</script>
+	</head>
+	<body>
+		<h1 id="header">Начало</h1>
+		<div class="main_menu">
+			<a id="index" class="menu red_menu menu_margin"
+				onclick="onIndexClicked();">
+			Начало
+			</a>
+			<a id="aboutme" class="menu green_menu menu_margin"
+				onclick="onAboutMeClicked();">
+			За мен
+			</a>
+			<a id="contacts" href="contacts.html"class="menu blue_menu menu_margin">
+			Контакти
+			</a>
+			<a id="blog" href="blog.html"class="menu yellow_menu">
+			Блог
+			</a>
+		</div>
+		<div class="content">
+			<div class="left_content">
+				<p>
+		От къде идва?
+Противно на общоприетото схващане, Lorem Ipsum не е просто случаен текст. Той има корени в парче от класическата латиноамериканска литература от 45 г. пр. н. е., което го прави на повече от 2000 години. Ричард Макклинток, професор по латински в Hampden-Sydney College във Вирджиния, потърси една от по-неизвестните латински думи, consectetur, от пасаж от Lorem Ipsum и, преглеждайки цитатите на думата в класическата литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32.
+
+Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм.
+		</p>
+			</div>
+			<div class="middle_content">
+				<p>
+		От къде идва?
+Противно на общоприетото схващане, Lorem Ipsum не е просто случаен текст. Той има корени в парче от класическата латиноамериканска литература от 45 г. пр. н. е., което го прави на повече от 2000 години. Ричард Макклинток, професор по латински в Hampden-Sydney College във Вирджиния, потърси една от по-неизвестните латински думи, consectetur, от пасаж от Lorem Ipsum и, преглеждайки цитатите на думата в класическата литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32.
+
+Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм.
+		</p>
+			</div>
+			<div class="right_content">
+				<p>
+		От къде идва?
+Противно на общоприетото схващане, Lorem Ipsum не е просто случаен текст. Той има корени в парче от класическата латиноамериканска литература от 45 г. пр. н. е., което го прави на повече от 2000 години. Ричард Макклинток, професор по латински в Hampden-Sydney College във Вирджиния, потърси една от по-неизвестните латински думи, consectetur, от пасаж от Lorem Ipsum и, преглеждайки цитатите на думата в класическата литература, открива несъмнения източник. Lorem Ipsum идва от раздели 1.10.32 и 1.10.33 на „de Finibus Bonorum et Malorum“ (Крайностите на доброто и злото) от Цицерон, написана през 45 г. пр.н.е. Тази книга е трактат по теорията на етиката, много популярен през Ренесанса. Първият ред на Lorem Ipsum, "Lorem ipsum dolor sit amet..", идва от ред в раздел 1.10.32.
+
+Стандартната част от Lorem Ipsum, използвана от 1500-те, е възпроизведена по-долу за тези, които се интересуват. Раздели 1.10.32 и 1.10.33 от "de Finibus Bonorum et Malorum" от Цицерон също са възпроизвеждани в точния им оригинален вид, придружени от английски версии от превода от 1914 г. на Х. Ракъм.
+		</p>
+			</div>
+		</div>
+		
+	</body>
+</html>
